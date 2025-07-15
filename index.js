@@ -26,7 +26,7 @@ app.use("/public_api", async (req, res) => {
   const options = {
     method: req.method,
     headers: {
-      Authorization: `Bearer ${API_TOKEN}`,
+      Authorization: `Token ${API_TOKEN}`,
       "Content-Type": "application/json",
       Accept: "application/json"
     },
